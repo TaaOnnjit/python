@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    background: #2c2a3b;
+}
+
+.container .bar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.container .bar .List_laft ul {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    gap: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    list-style: none;
+}
+
+.container .bar .List_right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #ffffff;
+    font-size: 20px;
+}
